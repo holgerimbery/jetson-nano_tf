@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# make executable by chmod a+x nano-tf-01.sh
-# run using sudo -H ./nano-tf-01.sh
+# make executable by chmod a+x install.sh
+# run using sudo -H ./install.sh
 # first install the Ubuntu packages we need
 apt-get install python3-pip libhdf5-serial-dev hdf5-tools zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran -y # needed for TensorFlow
 apt-get install libfreetype6-dev pkg-config -y               # needed for matplotlib
