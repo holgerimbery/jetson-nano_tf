@@ -4,7 +4,9 @@
 # first install the Ubuntu packages we need
 apt-get install python3-pip libhdf5-serial-dev hdf5-tools zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran -y # needed for TensorFlow
 apt-get install libfreetype6-dev pkg-config -y               # needed for matplotlib
-apt-get install nodejs npm -y                                # needed for jupyter lab
+apt-get install nano curl -y
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+apt-get install nodejs -y                                # needed for jupyter lab
 pip3 install pillow==5.4.1                                   # needed for image processing
 pip3 install matplotlib                                      # used in the TensorFlow notebook
 # Jupyter  notebook - lab + widgets add terminal window support
