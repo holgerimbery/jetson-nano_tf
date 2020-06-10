@@ -34,7 +34,7 @@ if __name__ == '__main__':
         '--working_directory',
         type=str,
         help='The directory for Jupyter Lab',
-        default=os.path.expanduser('~/nano'))
+        default=os.path.expanduser('~/jupyterlab'))
     parser.add_argument('--output', default='nano_jupyter.service')
     args = parser.parse_args()
 
